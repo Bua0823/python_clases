@@ -1,3 +1,5 @@
-lado = 4
-area = lado * lado
-print('el aread del cuadrado es: '+ str(area))
+print ('ingrese el lado del cuadro: ')
+lado = input()
+print (lado)
+area = float(lado) * float(lado)
+print('el area del cuadrado es: '+ str(area)) 
